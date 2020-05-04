@@ -1,0 +1,93 @@
+
+/*Comentario
+p{
+    color:greenyellow ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+*/
+/*Selector universal*/
+
+/**{
+    color: black;
+}*/
+
+/*Selector por clases */
+.destacado{
+    color: crimson !important;
+    font-size: 14px;
+    line-height: 2px;
+}
+
+body {
+    /*margin: 0.5in;*/
+    font-size: 1em;
+}
+
+h1{
+    /*line-height: 2cm;*/
+    /*font-size: 5ex;*/
+    font-size: 200%;
+}
+
+h2{
+    font-size: 150%;
+}
+
+.p1{
+    word-spacing: 4mm;
+    margin: 10px;
+    background-color: rgb(71,98,176);
+}
+
+.p2{
+    background-color: rgb(27%, 38%, 69%);
+}
+
+.p3{
+    background-color: #4762B0;
+}
+
+a{
+    font-size: 12pt;
+}
+
+/*Border*/
+.p4{
+    border-width: 5px;
+    border-color: red blueviolet blue green;
+    border-style: solid;
+    width: 45%;
+    float: left;
+}
+
+.p5{
+    border: 5px burlywood dashed;
+    background-color: chocolate;
+
+    /*Posiciones*/
+    width: 45%;
+    float: left;
+}
+
+body{
+    background-image: url("images/1.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.p6{
+    width: 90%;
+    position: relative;
+    top: 50px;
+    clear: both;
+}
+
+header{
+    position: relative;
+    left: 100px;
+}
+
+/*Posiciones*/

@@ -1,0 +1,79 @@
+@font-face{
+    font-family: f_spartan;
+    src: url(font/Spartan/Spartan-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: 'f_spartan';
+}
+
+section {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+article{
+    background-color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+form {
+    padding: 10px 20px;
+    width: 100%;
+}
+
+form label{
+    display: inline-block;
+    text-align: right;
+    width: 30%;
+    margin: 5px;
+}
+
+form input{
+    width: 30%;
+    border: #62A69350 1px solid;
+    border-radius: 4px;
+    padding: 10px 5px;
+    margin: 10px 0px 10px auto;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+}
+
+form input[type=date]{
+    width: 175px;
+}
+
+.d_button_container{
+    width: 61%;
+    text-align: right;
+}
+
+form input[type=submit]{
+    width: auto;
+    font-weight: bolder;
+    color: #fff;
+    padding: 10px;
+    border: solid 1px #62A69350;
+    background-color: #62A693;
+
+}
+
+form input[type=submit]:focus{
+    
+    background-color: #346157 !important;
+}
+
+form input:focus{
+    border: #62A693 1px solid;
+    background-color: #62A69310;
+    transition: ease-out all 0.3s;
+}
+
+form input[type=submit]:hover{
+    box-shadow: 0px 0px 4px #333;
+}
+
+

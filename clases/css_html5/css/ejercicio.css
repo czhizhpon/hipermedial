@@ -1,0 +1,110 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/*HEADER head*/
+#head h1{
+    width: 30%;
+    font-size: 150%;
+    color: coral;
+    text-decoration: none;
+    float: left;
+}
+
+#buscar{
+    margin-top: 12px;
+    margin-right: 12px;
+    float: right;
+}
+
+#head #menu{
+    clear: both;
+    background-color: darkblue;
+    padding: 10px;
+}
+
+#head #menu a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/*SECTION ads*/
+#ads{
+    width: 20%;
+    float: left;
+}
+
+#ads aside{
+    border: 2px gray solid;
+    margin: 5%;
+}
+
+#news{
+    background-color: lightblue;
+}
+
+#span{
+    background-color: lightyellow;
+}
+/*--Fin--*/
+
+/*SECTION Pag*/
+#pag{
+    width: 60%;
+    float: left;
+}
+/*
+#pag article p{
+    text-align: justify;
+}
+*/
+#pag article img{
+    size: 5%;
+    float: left;
+    margin: 5px;
+}
+
+.articulo_principal .f_p:first-letter {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+.articulo_principal p{
+    white-space: normal;
+}
+
+/*--Fin--*/
+
+/*SECTION otros*/
+#otros{
+    width: 20%;
+    float: right;
+}
+
+#otros aside{
+    margin: 5%;
+    padding: 4px;
+    border: 2px chocolate solid;
+}
+
+.otros_titulo{
+    background-color: coral;
+    border: 1px black solid;
+}
+/*--Fin--*/
+
+/*FOOTER*/
+footer{
+    text-align: center;
+	margin-top: 4%;
+	border-top: 3px solid chocolate;
+	font-family: Arial, Helvetica, sans-serif;
+	clear: both;
+	padding-bottom: 20px;
+}
+
